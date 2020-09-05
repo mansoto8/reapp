@@ -10,6 +10,19 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <form onSubmit={this.handleSubmit}>
+          <label htmlFor="new-todo">
+            What needs to be done?
+          </label>
+          <input
+            id="new-todo"
+            onChange={this.handleChange}
+            value={this.state.text}
+          />
+          <button>
+            Add #{this.state.items.length + 1}
+          </button>
+        </form>
         <a
           className="App-link"
           href="https://reactjs.org"
