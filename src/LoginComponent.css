@@ -1,0 +1,28 @@
+
+
+.LoginComponent {
+    text-align: center;
+    background-color: #282c34;
+    color: #ababab;
+}
+
+.loginLabel {
+    display: inline-block;
+    width: 100px;
+}
+
+.LoginComponent h3 {
+    margin: 10px;
+    padding: 0;
+}
+
+#loginButton {
+    margin: 10px;
+    padding: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.margin {
+    margin: 5px;
+}
